@@ -1,0 +1,88 @@
+/* 코드 구현 */
+:root{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#warning{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: red;
+    text-indent: -9999px;
+}
+
+.login__container {
+    display:block;
+    width: 350px;
+    height: 140px;
+    margin: 0 auto 0 auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+.input__container{
+    width:100%;
+    height:60px;
+    margin-bottom:30px;
+}
+
+.id__container{
+    width: 100%;
+    height: 30px;
+}
+
+.pw__container{
+    position: relative;
+    width:100%;
+    height: 54px;
+}
+
+#input__id{
+    position: relative;
+    left:36px;
+}
+
+#input__pw{
+    position: relative;
+    left:21px;
+}
+
+.login__button {
+    width:100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(82, 81, 81);
+    background-color:gray;
+    border: 0px solid;
+    border-radius: 3px;
+}
+
+.login__button:focus{
+    border: 3px solid rgb(5, 104, 197);
+    border-radius: 5px;
+    outline-style:none;
+}
+
+input{
+    width: 260px;
+    border-top:0px;
+    border-left:0px;
+    border-right: 0px;
+    border-bottom: 2px;
+    border-style: solid;
+    border-color:gray;
+}
+
+
+input:focus{
+    border: 3px solid rgb(5, 104, 197);
+    border-radius: 5px;
+    outline-style:none;
+}
